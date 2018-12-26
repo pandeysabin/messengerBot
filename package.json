@@ -1,0 +1,26 @@
+{
+  "name": "messengerbot",
+  "version": "0.5.0",
+  "description": "facebook messenger bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "hahah"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YednapNibas/messengerBot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Sabin Pandey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YednapNibas/messengerBot/issues"
+  },
+  "homepage": "https://github.com/YednapNibas/messengerBot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
