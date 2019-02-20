@@ -11,9 +11,7 @@ const
 
 // Creates the endpoint for our webhook 
 
-app.get('/', (req, res) => {
-    console.log('wassup');
-});
+app.get('/favicon.ico', (req, res) => res.status(204));
 app.post('/webhook', (req, res) => {  
  
     let body = req.body;
