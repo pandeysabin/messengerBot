@@ -4,9 +4,9 @@
   "description": "facebook messenger bot",
   "main": "index.js",
   "scripts": {
-    "test": "hahah"
+    "test": "hahah",
+    "start": "node index.js"
   },
-  "start": "node index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YednapNibas/messengerBot.git"
