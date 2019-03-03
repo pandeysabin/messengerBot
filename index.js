@@ -11,6 +11,9 @@ const
 
 // Creates the endpoint for our webhook 
 
+app.get('/', (req, res) => {
+  res.send('Hello world');
+})
 
 app.post('/webhook', (req, res) => {  
  
