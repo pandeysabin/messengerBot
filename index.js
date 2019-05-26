@@ -7,7 +7,7 @@ const express = require("express"),
 
 // Creates the endpoint for our webhook
 
-app.get("/", (req, res) => {
+app.get("/app", (req, res) => {
   res.send("Hello world");
 });
 
